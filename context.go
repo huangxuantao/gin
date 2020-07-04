@@ -80,7 +80,7 @@ type Context struct {
 	sameSite http.SameSite
 
 	// request body copy
-	BodyCopy  []byte
+	RequestBodyCopy  []byte
 }
 
 /************************************/
