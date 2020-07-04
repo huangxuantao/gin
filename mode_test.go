@@ -8,7 +8,7 @@ import (
 	"os"
 	"testing"
 
-	"e.coding.net/fireorange/customize/gin/binding"
+	"github.com/huangxuantao/gin/binding"
 	"github.com/stretchr/testify/assert"
 )
 

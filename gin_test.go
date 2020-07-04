@@ -454,27 +454,27 @@ func TestListOfRoutes(t *testing.T) {
 	assertRoutePresent(t, list, RouteInfo{
 		Method:  "GET",
 		Path:    "/favicon.ico",
-		Handler: "^(.*/vendor/)?e.coding.net/fireorange/customize/gin.handlerTest1$",
+		Handler: "^(.*/vendor/)?github.com/huangxuantao/gin.handlerTest1$",
 	})
 	assertRoutePresent(t, list, RouteInfo{
 		Method:  "GET",
 		Path:    "/",
-		Handler: "^(.*/vendor/)?e.coding.net/fireorange/customize/gin.handlerTest1$",
+		Handler: "^(.*/vendor/)?github.com/huangxuantao/gin.handlerTest1$",
 	})
 	assertRoutePresent(t, list, RouteInfo{
 		Method:  "GET",
 		Path:    "/users/",
-		Handler: "^(.*/vendor/)?e.coding.net/fireorange/customize/gin.handlerTest2$",
+		Handler: "^(.*/vendor/)?github.com/huangxuantao/gin.handlerTest2$",
 	})
 	assertRoutePresent(t, list, RouteInfo{
 		Method:  "GET",
 		Path:    "/users/:id",
-		Handler: "^(.*/vendor/)?e.coding.net/fireorange/customize/gin.handlerTest1$",
+		Handler: "^(.*/vendor/)?github.com/huangxuantao/gin.handlerTest1$",
 	})
 	assertRoutePresent(t, list, RouteInfo{
 		Method:  "POST",
 		Path:    "/users/:id",
-		Handler: "^(.*/vendor/)?e.coding.net/fireorange/customize/gin.handlerTest2$",
+		Handler: "^(.*/vendor/)?github.com/huangxuantao/gin.handlerTest2$",
 	})
 }
 

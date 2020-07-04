@@ -18,8 +18,8 @@ import (
 	"testing"
 	"time"
 
-	"e.coding.net/fireorange/customize/gin/testdata/protoexample"
 	"github.com/golang/protobuf/proto"
+	"github.com/huangxuantao/gin/testdata/protoexample"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -12,8 +12,8 @@ import (
 	"strings"
 	"time"
 
-	"e.coding.net/fireorange/customize/gin/internal/bytesconv"
-	"e.coding.net/fireorange/customize/gin/internal/json"
+	"github.com/huangxuantao/gin/internal/bytesconv"
+	"github.com/huangxuantao/gin/internal/json"
 )
 
 var errUnknownType = errors.New("unknown type")

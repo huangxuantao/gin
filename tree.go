@@ -11,7 +11,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"e.coding.net/fireorange/customize/gin/internal/bytesconv"
+	"github.com/huangxuantao/gin/internal/bytesconv"
 )
 
 var (

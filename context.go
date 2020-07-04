@@ -19,9 +19,9 @@ import (
 	"sync"
 	"time"
 
-	"e.coding.net/fireorange/customize/gin/binding"
-	"e.coding.net/fireorange/customize/gin/render"
 	"github.com/gin-contrib/sse"
+	"github.com/huangxuantao/gin/binding"
+	"github.com/huangxuantao/gin/render"
 )
 
 // Content-Type MIME of the most common data formats.

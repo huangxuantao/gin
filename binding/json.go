@@ -10,7 +10,7 @@ import (
 	"io"
 	"net/http"
 
-	"e.coding.net/fireorange/customize/gin/internal/json"
+	"github.com/huangxuantao/gin/internal/json"
 )
 
 // EnableDecoderUseNumber is used to call the UseNumber method on the JSON

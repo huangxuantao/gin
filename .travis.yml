@@ -28,7 +28,7 @@ install:
   - if [[ "${GO111MODULE}" = "on" ]]; then export PATH="${GOPATH}/bin:${GOROOT}/bin:${PATH}"; fi
   - if [[ "${GO111MODULE}" = "on" ]]; then make tools; fi
 
-go_import_path: e.coding.net/fireorange/customize/gin
+go_import_path: github.com/huangxuantao/gin
 
 script:
   - make vet

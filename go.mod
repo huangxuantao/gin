@@ -1,4 +1,4 @@
-module e.coding.net/fireorange/customize/gin
+module github.com/huangxuantao/gin
 
 go 1.13
 

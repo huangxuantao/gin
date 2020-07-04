@@ -6,8 +6,8 @@ This is API experiment for Gin.
 package main
 
 import (
-	"e.coding.net/fireorange/customize/gin"
-	"e.coding.net/fireorange/customize/gin/ginS"
+	"github.com/huangxuantao/gin"
+	"github.com/huangxuantao/gin/ginS"
 )
 
 func main() {

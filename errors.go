@@ -9,7 +9,7 @@ import (
 	"reflect"
 	"strings"
 
-	"e.coding.net/fireorange/customize/gin/internal/json"
+	"github.com/huangxuantao/gin/internal/json"
 )
 
 // ErrorType is an unsigned 64-bit error code as defined in the gin spec.

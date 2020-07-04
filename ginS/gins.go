@@ -9,7 +9,7 @@ import (
 	"net/http"
 	"sync"
 
-	"e.coding.net/fireorange/customize/gin"
+	"github.com/huangxuantao/gin"
 )
 
 var once sync.Once
