@@ -9,7 +9,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/gin-gonic/gin/internal/bytesconv"
+	"e.coding.net/fireorange/customize/gin/internal/bytesconv"
 )
 
 // AuthUserKey is the cookie name for user credential in basic auth.

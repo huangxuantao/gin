@@ -19,9 +19,9 @@ import (
 	"sync"
 	"time"
 
+	"e.coding.net/fireorange/customize/gin/binding"
+	"e.coding.net/fireorange/customize/gin/render"
 	"github.com/gin-contrib/sse"
-	"github.com/gin-gonic/gin/binding"
-	"github.com/gin-gonic/gin/render"
 )
 
 // Content-Type MIME of the most common data formats.
@@ -80,7 +80,7 @@ type Context struct {
 	sameSite http.SameSite
 
 	// request body copy
-	RequestBodyCopy  []byte
+	RequestBodyCopy []byte
 }
 
 /************************************/

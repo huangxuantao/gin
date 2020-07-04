@@ -13,8 +13,8 @@ import (
 	"path"
 	"sync"
 
-	"github.com/gin-gonic/gin/internal/bytesconv"
-	"github.com/gin-gonic/gin/render"
+	"e.coding.net/fireorange/customize/gin/internal/bytesconv"
+	"e.coding.net/fireorange/customize/gin/render"
 )
 
 const defaultMultipartMemory = 32 << 20 // 32 MB

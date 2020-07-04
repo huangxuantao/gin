@@ -14,7 +14,7 @@
 package main
 
 import (
-	"github.com/gin-gonic/gin"
+	"e.coding.net/fireorange/customize/gin"
 )
 
 func main() {
